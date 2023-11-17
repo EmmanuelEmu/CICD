@@ -7,8 +7,8 @@ jobs:
         steps:
             - uses: actions/checkout@v2 
             - name: 'Train my model'
-            env :
+              env :
                 repo_token: ${{ secrets.GITHUB_TOKEN }}
-            run : |
+              run : |
                 pip install -r requirements.txt
                 python src/pipes/trainer.py
