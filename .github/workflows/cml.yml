@@ -10,7 +10,7 @@ jobs:
               env :
                 repo_token: ${{ secrets.GITHUB_TOKEN }}
               run : |
-                pip install -r D:/4-2/ML lab/practice/CICD/src/requirements.txt
+                pip install -r ../../src/requirements.txt
                 python src/pipes/trainer.py
 
                 echo "## Model Metrics" > report.md
