@@ -101,3 +101,7 @@ print(f'\nMean Absolute Error = {mae_1}, Mean Squared Error = {mse_1}.')
 # Write metrics to file
 with open('reports/metrics.txt', 'w') as outfile:
     outfile.write(f'\nMean Absolute Error = {mae_1}, Mean Squared Error = {mse_1}.')
+    
+    
+# saving the model
+model.save("models\my_model.h5")
