@@ -13,8 +13,8 @@ import sys
 sys.path.insert(0, os.path.abspath("../src"))
 
 project = 'cicd'
-copyright = '2023, masum.b'
-author = 'masum.b'
+copyright = '2023, Emmanuel Hembrom'
+author = 'Emmanuel Hembrom'
 release = '1.0.0'
 
 # -- General configuration ---------------------------------------------------
@@ -34,7 +34,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'sphinx-rtd-theme'
+html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 # -- Options for todo extension ----------------------------------------------
